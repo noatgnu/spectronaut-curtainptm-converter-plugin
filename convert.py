@@ -129,6 +129,7 @@ def main():
 
         print(f"\nConversion completed successfully!")
         print(f"Output file: {output_file}")
+        sys.exit(0)
 
     except Exception as e:
         print(f"\nError during conversion: {str(e)}", file=sys.stderr)
