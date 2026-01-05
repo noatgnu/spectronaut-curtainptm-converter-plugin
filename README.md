@@ -21,7 +21,7 @@
 
 ## Description
 
-Convert Spectronaut PTM output to CurtainPTM upload format. Supports multiple processing modes for different data formats - basic PTM processing, PTM group processing with site probabilities, and ProForma sequence processing with position validation.
+Convert Spectronaut PTM output to CurtainPTM upload format. Supports multiple processing modes for different data formats - basic PTM processing, PTM group processing with site probabilities, and ProForma sequence processing with position validation. Based on: Phung et al. (2024) PNAS 121(7):e2312676121. Repository: https://github.com/noatgnu/curtain-utils
 
 ## Runtime
 
@@ -121,7 +121,7 @@ Size of the sequence window around modification sites (must be odd number). Defa
 
 Dependencies are defined in: `requirements.txt`
 
-- `curtainutils>=0.2.0`
+- `curtainutils>=0.1.24`
 - `pandas>=2.0.0`
 - `click>=8.0.0`
 

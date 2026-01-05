@@ -1,7 +1,7 @@
 plugin:
   id: spectronaut-curtainptm-converter
   name: Spectronaut to CurtainPTM Converter
-  description: Convert Spectronaut PTM output to CurtainPTM upload format. Supports multiple processing modes for different data formats - basic PTM processing, PTM group processing with site probabilities, and ProForma sequence processing with position validation.
+  description: "Convert Spectronaut PTM output to CurtainPTM upload format. Supports multiple processing modes for different data formats - basic PTM processing, PTM group processing with site probabilities, and ProForma sequence processing with position validation. Based on: Phung et al. (2024) PNAS 121(7):e2312676121. Repository: https://github.com/noatgnu/curtain-utils"
   version: 1.0.0
   author: CauldronGO Team
   category: utilities
